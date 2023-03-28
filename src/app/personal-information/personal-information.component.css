@@ -1,0 +1,13 @@
+div{
+background-image: url("src/assets/images/back.jpg");
+width: auto;
+height: auto;
+}
+.intro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+
+  height:30rem;
+}

@@ -1,0 +1,10 @@
+.space{
+  padding: 0.5rem;
+  display: flex;
+  justify-content: right;
+  background-color: aliceblue;
+}
+a{
+  padding: 0.5rem;
+  size: 0.5rem;
+}
