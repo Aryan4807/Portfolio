@@ -2,9 +2,12 @@
   padding: 0.5rem;
   display: flex;
   justify-content: right;
-  background-color: aliceblue;
+  background-color: #0C082A;
 }
 a{
   padding: 0.5rem;
   size: 0.5rem;
+}
+button{
+  background-color: rgb(14, 7, 29);
 }

@@ -8,4 +8,6 @@ div{
 h2{
   display: flex;
   justify-content: center;
+  color: white
+  ;
 }

@@ -1,0 +1,23 @@
+
+section {
+  margin-top: 2rem;
+  display: flex;
+}
+
+H2{
+  color: white
+}
+table{
+  border: 2px solid white;
+  width: 100%;
+}
+td{
+  width: 25%;
+  border: 2px solid white;
+}
+th{
+    border: 2px solid white;
+}
+tr{
+  width: 25%;
+}

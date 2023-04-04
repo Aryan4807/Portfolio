@@ -1,8 +1,28 @@
-<app-navbar></app-navbar>
-<app-banner></app-banner>
-<app-personal-information></app-personal-information>
-<app-contact></app-contact>
-<app-education></app-education>
-<app-projects></app-projects>
-<app-skills></app-skills>
-<app-work-experience></app-work-experience>
+<video autoplay muted loop id="myVideo">
+  <source src="./assets/videos/video.mp4" type="video/mp4" />
+  Your browser does not support HTML5 video.
+</video>
+<app-navbar
+  ><a routerLinkActive="active" routerLink=""><li></li></a
+></app-navbar>
+<app-banner><a routerLinkActive="active" routerLink="/Banner"></a></app-banner>
+<app-personal-information
+  ><a [routerLinkActive]="'active'" routerLink=""></a
+></app-personal-information>
+<app-education
+  ><a [routerLinkActive]="'active'" routerLink="Education"></a
+></app-education>
+<app-coding-profile>
+  <a [routerLinkActive]="'active'" routerLink="Coding"></a
+></app-coding-profile>
+<app-work-experience
+  ><a [routerLinkActive]="'active'" routerLink="Workexp"></a
+></app-work-experience>
+<!-- <app-projects></app-projects> -->
+<app-skills
+  ><a [routerLinkActive]="'active'" routerLink="skills"></a
+></app-skills>
+<app-contact>
+  <a [routerLinkActive]="'active'" routerLink="Contact"></a
+></app-contact>
+<router-outlet></router-outlet>

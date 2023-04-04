@@ -1,4 +1,25 @@
-<div>
-  <h2> Education</h2>
-  
+<div class="container">
+  <h2>Education</h2>
+  <table>
+    <tr>
+      <th style="width: 25%" class="center">Institute</th>
+      <th style="width: 25%" class="center">Degree</th>
+      <th style="width: 25%" class="center">Year of Duration</th>
+      <th style="width: 25%" class="center">Marks Obtained</th>
+    </tr>
+    <tr *ngFor="let education of educationList">
+      <td>
+        <p style="width: 25%">{{ education.institute }}</p>
+      </td>
+      <td>
+        <p style="width: 25%">{{ education.title }}</p>
+      </td>
+      <td>
+        <p style="width: 25%">{{ education.year }}</p>
+      </td>
+      <td>
+        <p style="width: 25%">{{ education.CGPA }}</p>
+      </td>
+    </tr>
+  </table>
 </div>

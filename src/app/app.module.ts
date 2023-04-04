@@ -11,6 +11,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { CodingProfileComponent } from './coding-profile/coding-profile.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     SkillsComponent,
     ProjectsComponent,
     WorkExperienceComponent,
-    NavbarComponent
+    NavbarComponent,
+    CodingProfileComponent
   ],
   imports: [
     BrowserModule,

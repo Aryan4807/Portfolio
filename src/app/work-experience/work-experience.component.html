@@ -1,1 +1,10 @@
-<p>work-experience works!</p>
+<h2 class="title">
+  <span> Work Experience</span>
+</h2>
+<div class="container">
+  <section>
+    <p *ngFor="let sentence of aboutMe">
+      {{ sentence }}
+    </p>
+  </section>
+</div>
