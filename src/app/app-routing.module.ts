@@ -12,13 +12,13 @@ import { SkillsComponent } from './skills/skills.component';
 const appRoute: Routes = [
 
   //   { path: '', redirectTo: 'Home', pathMatch: 'full' },
-  { path: 'Banner', component: BannerComponent },
-  { path: 'Contact', component: ContactComponent },
-  { path: 'Education', component: EducationComponent },
-  { path: 'Coding', component: CodingProfileComponent },
-  { path: 'Workexp', component: WorkExperienceComponent },
+  { path: 'banner', component: BannerComponent },
+  { path: 'contact', component: ContactComponent },
+  { path: 'education', component: EducationComponent },
+  { path: 'coding', component: CodingProfileComponent },
+  { path: 'workexp', component: WorkExperienceComponent },
   { path: 'skills', component: SkillsComponent },
-  { path: '', component: NavbarComponent },
+  { path: '', component: BannerComponent },
   { path: '**', redirectTo: '', pathMatch: 'full' }
 ]
 @NgModule({

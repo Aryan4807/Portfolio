@@ -11,3 +11,7 @@ a{
 button{
   background-color: rgb(14, 7, 29);
 }
+a{
+  text-decoration: none;
+  color:aliceblue
+}
